@@ -32,3 +32,60 @@ The analysis focuses on:
 ---
 
 ## 🗂 Project Structure
+
+NFHS_Data_Analysis/
+│
+├── data/
+│ └── NFHS_cleaned.csv
+│
+├── notebooks/
+│ ├── NFHS_EDA.ipynb
+│ └── NFHS_Correlation_Analysis.ipynb
+│
+├── plots/
+│ ├── literacy_distribution.png
+│ └── child_nutrition.png
+│
+├── README.md
+└── requirements.txt
+
+
+---
+
+## 📈 Analysis & Visualizations
+1. **Data Cleaning & Preprocessing**
+   - Missing values handled  
+   - Standardized column names  
+   - Converted percentages and numeric values  
+
+2. **Descriptive Statistics**
+   - Histograms, boxplots, and distributions for literacy, health, and nutrition  
+
+3. **Correlation Analysis**
+   - Heatmaps to identify relationships between indicators  
+   - Example: Maternal education vs child nutrition  
+
+4. **Comparative Analysis**
+   - Men vs Women lifestyle habits (tobacco & alcohol)  
+   - State-wise literacy and health metrics  
+
+5. **Key Insights**
+   - Wide disparities in women literacy across districts  
+   - Child malnutrition (stunting, wasting) remains a challenge  
+   - Strong correlation between maternal education and child health outcomes  
+
+---
+
+## 🛠 Technologies Used
+- **Python 3.x**  
+- **Pandas & NumPy** – Data cleaning & manipulation  
+- **Matplotlib & Seaborn** – Visualizations  
+- **Jupyter Notebook** – Analysis & reporting  
+
+---
+
+## ⚡ How to Run
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/NFHS_Data_Analysis.git
+cd NFHS_Data_Analysis
